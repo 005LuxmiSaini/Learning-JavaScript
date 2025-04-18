@@ -84,7 +84,8 @@ color: white;
     
 }
 .income__list{
-    border:#555
+    border: 1px solid #555;
+    
 }
 
 .budget__expenses{
@@ -158,7 +159,7 @@ color: white;
     height: 25vh;
     justify-content: space-evenly;
     margin: 1rem;
-    height: 40vh;
+    height: 100vh;
 }
 .income{
     font-size: 20px;
@@ -170,7 +171,8 @@ color: white;
 .expenses{
     font-size: 20px;
     font-weight: bold;
-    color: #FF5049;
+    color: #FF5049;margin-left: 1rem;
+    
 }
 
 
@@ -186,4 +188,20 @@ color: white;
     width: 40px;
     height: 40px;
 
+}
+
+.item{
+    display: flex ;
+    text-align: center;
+    border: 1px solid grey !important;
+    
+
+}
+
+.item{
+    
+    display: flex ;
+    text-align: center;
+    border: 1px solid grey !important;
+    
 }
