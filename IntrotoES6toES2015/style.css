@@ -1,0 +1,32 @@
+p{
+    font-size: larger;
+    text-decoration: solid;
+    
+}
+#one{
+   background-color: green;
+   height: 70px;
+   width: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}
+#two{
+    background-color: blue;
+    height: 70px;
+    width: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ #three{
+    background-color: orangered;
+    height: 70px;
+    width: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
