@@ -103,6 +103,10 @@ var UIController = (function(){
             // Insert the HTML into the DOM
             document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
         },
+
+        addListItem: function(){
+             
+        },
         getDOMstrings: function(){
             return DOMstrings;
         }
