@@ -3,7 +3,7 @@ p{
     text-decoration: solid;
     
 }
-#one{
+.green{
    background-color: green;
    height: 70px;
    width: 50%;
@@ -12,21 +12,22 @@ p{
    justify-content: center;
   align-items: center;
 }
-#two{
-    background-color: blue;
-    height: 70px;
-    width: 50%;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
- }
- #three{
-    background-color: orangered;
-    height: 70px;
-    width: 50%;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
- }
+.blue{
+   background-color: blue;
+   height: 70px;
+   width: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}
+
+ .orange{
+   background-color: orange;
+   height: 70px;
+   width: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}
