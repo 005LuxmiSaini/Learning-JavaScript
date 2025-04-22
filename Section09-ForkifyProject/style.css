@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}@media only screen and (max-width: 68.75rem){
+    html{
+        font-size: 50%;
+    }
+}
+
+body{
+    font-family: 'Nuntio Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #655A56;
+    background-image: linear-gradient(to right bootom, #FB0BB9,#F48982);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 2 * 4vw);
+    
+}
+
+.container{
+    max-width: 120rem;
+    margin: 4vw auto;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow:  hidden;
+    box-shadow: 0 2rem 6rem 0.5rem rgba(101,90,86,0.2);
+    display: grid;
+    grid-template-rows: 10rem minmax(100rem,auto);
+    grid-template-columns:1.1fr 2fr 1.1fr;
+    grid-template-areas: "head head head" "List recipe shooping";
+}@media only screen and (max-witdth: 60.75rem){
+    .container{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+.btn, .btn-small, .btn-small:link, .btn-small:visited{
+    background-image: linear-gradient(to right bottom, #FBDBB9, #F48982);
+    border-radius: 10rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all .2s;{
+}
+    }
+
+
+.btn:hover,.btn-small:hover {
+    transform: scale(1.05);
+}
+.btn:hover,.btn-small:focus{
+    outline: none;
+}
+.btn > *:first-child, .btn-small > *:first-child{
+    
+}
+            
+        
